@@ -1,0 +1,6 @@
+hello_page:
+    path: /anything/i/like
+    controller: symfony\Bundle\FrameworkBundle\controller\TemplateController::templateAction
+    defaults:
+      template: 'hello_page.html.twig'
+    #controller: App\Controller\DefaultController::index
